@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+/*READMOREボタン*/
+.button {
+	margin: 100px 0 0 100px;
+	display       : inline-block;
+	border-radius : 5%;          /* 角丸       */
+	font-size     : 10pt;        /* 文字サイズ */
+	text-align    : center;      /* 文字位置   */
+	cursor        : pointer;     /* カーソル   */
+	padding       : 12px 27px;   /* 余白       */
+	background    : #ffffff;     /* 背景色     */
+	color         : #212121;     /* 文字色     */
+	line-height   : 1em;         /* 1行の高さ  */
+	transition    : .3s;         /* なめらか変化 */
+	border        : 2px solid #212121;    /* 枠の指定 */
+}
+.button:hover {
+	box-shadow    : none;        /* カーソル時の影消去 */
+	color         : #ffffff;     /* 文字色     */
+	background    : #212121;     /* 背景色     */
+}
+
+/*READMOREボタン*/
+.button-2 {
+	margin: 80px 0 0 50px;
+	display       : inline-block;
+	border-radius : 5%;          /* 角丸       */
+	font-size     : 10pt;        /* 文字サイズ */
+	text-align    : center;      /* 文字位置   */
+	cursor        : pointer;     /* カーソル   */
+	padding       : 12px 27px;   /* 余白       */
+	background    : #ffffff;     /* 背景色     */
+	color         : #212121;     /* 文字色     */
+	line-height   : 2em;         /* 1行の高さ  */
+	transition    : .3s;         /* なめらか変化 */
+	border        : 2px solid #212121;    /* 枠の指定 */
+}
+.button-2:hover {
+	box-shadow    : none;        /* カーソル時の影消去 */
+	color         : #ffffff;     /* 文字色     */
+	background    : #212121;     /* 背景色     */
+}
+
+.about-area {
+	padding: 100px 0;
+	background-color: brown;
+}
+
+.vertical {
+	float: left;
+	writing-mode: vertical-rl;
+	margin-left: 100px;
+	font-size: 30px;
+    }
+.about-text {
+	padding: 30px 200px;
+}
+.about-text h3 {
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+.oursrevice-area {
+	padding: 150px 100px;
+	background-color: yellow;
+}
+
+.oursrevice-area h2 {
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.oursrevice-area li {
+	list-style: none;
+    box-sizing: border-box;
+}
+.oursrevice-area li img {
+	max-width: 22%;  /*画像のはみだしを防ぐ*/
+    height: auto;  /*画像の縦横比を維持 */
+}
+
+.oursrevice-area li img:hover {
+	box-shadow    : 4px 4px 2px #999;        /* 影付け     */
+	background-color: #FFFFFF;
+	transition: .3s;
+}
+
+.recruit-area {
+	padding: 150px 100px;
+	background-color: blue;
+}
+
+.recruit-area h2 {
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.recruit-image {
+	float: right;
+}
+
+.partner-area {
+	padding: 150px 100px;
+	background-color: green;
+}
+
+.partner-area h2 {
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.partner-image {
+	float: right;
+}
