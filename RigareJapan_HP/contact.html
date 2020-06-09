@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>お問い合わせ｜RigareJapan</title>
 <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="css/contact.css" rel="stylesheet" type="text/css">
 <link href="css/all.css" rel="all" type="text/css">
 <script type="text/javascript" src="js/mousestalker.js"></script>
 </head>
@@ -42,14 +43,72 @@
 			<li><a href="partner.html">パートナー募集</a></li>
 			<li><a href="contact.html">お問い合わせ</a></li>
 		</ul>
+		<div class="contact-information">
+			<h2>お問い合わせ</h2>
+			<h4>お電話からのお問い合わせ</h4>
+			<h3>TEL :03-6659-2895</h3>
+			<h5>10:00〜19:00 / 定休日：土日 祝日</h5>
+		</div>
+		<div class="contact-mail">
+			<h4>【パートナー募集用アドレス】ses@rigarejapan.co.jp</h4>
+			<h4>【その他お問合せアドレス　】info@rigarejapan.main.jp</h4>
+			<p>もしくは下記お問合せよりお問合せください。</p>
+		</div>
 	</header>
 	
 	<!--main-->
 	<main>
+		<div class="contact-form">
+			<table>
+				<tr>
+					<th>お問い合わせ種類<span>*</span></th>
+					<td>
+						<div class="cp_ipselect cp_sl01">
+							<select required>
+								<option value="" hidden>種類をお選びください</option>
+								<option value="1">求人情報について</option>
+								<option value="2">パートナー募集について</option>
+								<option value="3">その他</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th>お名前<span>*</span></th>
+					<td><input type="text" class="inText" id="inText1" placeholder="例）リガーレ"></td>
+				</tr>
+				<tr>
+					<th>お名前(ひらがな)<span>*</span></th>
+					<td><input type="text" class="inText" id="inText2" placeholder="例）りがーれ"></td>
+				</tr>
+				<tr>
+					<th>会社名<span>*</span></th>
+					<td><input type="text" class="inText" id="inText3" placeholder="例）ジャパン"></td>
+				</tr>
+				<tr>
+					<th>会社名(ひらがな)<span>*</span></th>
+					<td><input type="text" class="inText" id="inText4" placeholder="例）じゃぱん"></td>
+				</tr>
+				<tr>
+					<th>メールアドレス<span>*</span></th>
+					<td><input type="text" class="inText" id="inText5" placeholder="メールアドレス"></td>
+				</tr>
+				<tr>
+					<th>電話番号<span>*</span></th>
+					<td><input type="text" class="inText" id="inText6" placeholder="電話番号"></td>
+				</tr>
+				<tr>
+					<th>お問い合わせ内容<span>*</span></th>
+					<td><textarea class="textArea" id="inText" placeholder="お問い合わせ内容(必須)"></textarea></td>
+				</tr>
+			</table>
+				<label><input type="checkbox" name="check" >上記内容で送信します。よろしければチェックを入れてください</label><br><br>
+				<input type="submit" value="内容を送信する" class="button">
+		</div>
 		<div class="contact-area">
 			<h2>お問い合わせ</h2>
 			<p>お気軽にお問い合わせください。</p>
-			<div><input type="submit" value="お問い合わせする＞" class="button-3"></div>
+			<div><a href="contact.html"><input type="submit" value="お問い合わせする＞" class="button-3"></a></div>
 		</div>
 	</main>
 	

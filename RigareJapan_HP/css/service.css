@@ -1,3 +1,56 @@
 @charset "UTF-8";
 /* CSS Document */
+.rigare-strong {
+	background-color: darkkhaki;
+	padding: 100px 0;
+}
 
+.rigare-strong h2 {
+	background-color: darkkhaki;
+	padding: 0 100px;
+}
+
+.rigare-strong p {
+	padding: 20px 100px;
+}
+
+.service-icon  {
+	text-align: center;
+	list-style: none;
+    box-sizing: border-box;
+	padding: 100px 0;
+	margin-bottom: 50px;
+	display: inline-block;
+	border-bottom: 1px solid #212121;
+}
+
+.img-boxs {
+	background-color: blueviolet;
+	border-bottom: 1px solid #212121;
+	margin: 100px 0 100px 0;
+	padding: 0 0 200px 0;
+}
+
+.img-box {
+	position: relative;
+	background-color: beige;
+	width: 20%;
+	float: left;
+}
+
+.img-box img{
+	max-width: 55%;  /*画像のはみだしを防ぐ*/
+	margin: 0 0;
+	padding: 0 50px;
+}
+
+.img-box .active {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	transition: 0.5s; /*ゆっくり*/
+}
+.img-box:hover .active {
+	opacity: 1;
+}
